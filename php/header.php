@@ -64,7 +64,7 @@
             <div class="count_products">
                 <p>2</p>
             </div>
-            <a href="#" class="cart_link"><img src="img/cart.png" alt="cart" class="cart_img"></a>
+            <a href="shopping-cart.php" class="cart_link"><img src="img/cart.png" alt="cart" class="cart_img"></a>
             <div class="column_box drop">
                 <div class="drop_box">
                     <a href="single.php">
@@ -112,7 +112,8 @@
             </div>
 
         </li>
-        <li class="menu_list"><a href="#" class="button">My Account <i class="fa fa-caret-down left8"></i></a>
+        <li class="menu_list"><a href="checkout.php" class="button">My Account <i
+                    class="fa fa-caret-down left8"></i></a>
         </li>
     </ul>
 </header>

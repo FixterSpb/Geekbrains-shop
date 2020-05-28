@@ -2,4 +2,4 @@
     rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/font-awesome.css">
-<link rel="stylesheet" href="style.css?ver=1.17">
+<link rel="stylesheet" href="style.css?ver=1.40">

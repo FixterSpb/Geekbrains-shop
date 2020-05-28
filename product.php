@@ -7,7 +7,7 @@
     <?php
         include 'php/links.php';
     ?>
-    
+
     <title>Document</title>
 </head>
 
@@ -18,17 +18,8 @@
                 $page = 'man';
                 include 'php/header.php';
                 include 'php/main_menu.php';
+                include 'php/breadcrumbs.php';
             ?>
-            <nav class="nav_breadcrumbs center">
-                <h3 class="breadcrumbs_title">New Arrivals</h3>
-                <ul class="breadcrumbs_menu">
-                    <li class="breadcrumbs_list"><a href="\" class="breadcrumbs_link link_hover">Home</a></li>
-                    <li class="breadcrumbs_list"><a href="#" class="breadcrumbs_link link_hover">Men</a></li>
-                    <li class="breadcrumbs_list"><a href="#" class="breadcrumbs_link breadcrumbs_link_active">New
-                            Arrivals</a></li>
-                </ul>
-
-            </nav>
 
             <main class="main_product center">
                 <nav class="sidebar">
@@ -129,6 +120,7 @@
                                         <a href="#" class="product_category_link link_hover">Tanks</a>
                                     </li>
                                 </ul>
+                            </details>
                         </li>
                         <li class="product_list">
                             <details class="product_category">
@@ -177,6 +169,7 @@
                                         <a href="#" class="product_category_link link_hover">Tanks</a>
                                     </li>
                                 </ul>
+                            </details>
                         </li>
                     </ul>
                 </nav>
@@ -208,37 +201,37 @@
                             <input type="checkbox" name="top_filter_ch_box" id="top_filter_ch_box_XXS"
                                 class="top_filter_checkbox">
                             <label for="top_filter_ch_box_XXS">
-                                <p class="label_caption">XXS</p>
+                                XXS
                             </label>
                             <input type="checkbox" name="top_filter_ch_box" id="top_filter_ch_box_XS"
                                 class="top_filter_checkbox">
                             <label for="top_filter_ch_box_XS">
-                                <p class="label_caption">XS</p>
+                                XS
                             </label>
                             <input type="checkbox" name="top_filter_ch_box" id="top_filter_ch_box_S"
                                 class="top_filter_checkbox">
                             <label for="top_filter_ch_box_S">
-                                <p class="label_caption">S</p>
+                                S
                             </label>
                             <input type="checkbox" name="top_filter_ch_box" id="top_filter_ch_box_M"
                                 class="top_filter_checkbox">
                             <label for="top_filter_ch_box_M">
-                                <p class="label_caption">M</p>
+                                M
                             </label>
                             <input type="checkbox" name="top_filter_ch_box" id="top_filter_ch_box_L"
                                 class="top_filter_checkbox">
                             <label for="top_filter_ch_box_L">
-                                <p class="label_caption">L</p>
+                                L
                             </label>
                             <input type="checkbox" name="top_filter_ch_box" id="top_filter_ch_box_XL"
                                 class="top_filter_checkbox">
                             <label for="top_filter_ch_box_XL">
-                                <p class="label_caption">XL</p>
+                                XL
                             </label>
                             <input type="checkbox" name="top_filter_ch_box" id="top_filter_ch_box_XXL"
                                 class="top_filter_checkbox">
                             <label for="top_filter_ch_box_XXL">
-                                <p class="label_caption">XXL</p>
+                                XXL
                             </label>
                         </div>
 
@@ -283,9 +276,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="product">
@@ -307,9 +302,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="product">
@@ -331,9 +328,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="product">
@@ -355,9 +354,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="product">
@@ -379,9 +380,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="product">
@@ -403,9 +406,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="product">
@@ -427,9 +432,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="product">
@@ -451,9 +458,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="product">
@@ -475,9 +484,11 @@
                             </div>
                             <div class="product_hover">
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
-                                    alt="Add to cart"> Add to Cart</a>
-                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18" aria-hidden="true"></i></a>
-                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18" aria-hidden="true"></i></a>
+                                        alt="Add to cart"> Add to Cart</a>
+                                <a href="#" class="product_add"><i class="fa fa-retweet fs-18"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" class="product_add"><i class="fa fa-heart-o fs-18"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
