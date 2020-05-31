@@ -18,17 +18,8 @@
                 $page = 'women';
                 include 'php/header.php';
                 include 'php/main_menu.php';
+                include 'php/breadcrumbs.php';
             ?>
-            <nav class="nav_breadcrumbs center">
-                <h3 class="breadcrumbs_title">New Arrivals</h3>
-                <ul class="breadcrumbs_menu">
-                    <li class="breadcrumbs_list"><a href="#" class="breadcrumbs_link link_hover">Home</a></li>
-                    <li class="breadcrumbs_list"><a href="#" class="breadcrumbs_link link_hover">Men</a></li>
-                    <li class="breadcrumbs_list"><a href="#" class="breadcrumbs_link breadcrumbs_link_active">New
-                            Arrivals</a></li>
-                </ul>
-
-            </nav>
 
             <main>
                 <section>
@@ -72,40 +63,40 @@
                             <div class="product_option">
                                 <i class="fa fa-angle-down" aria-hidden="true"></i>
                                 <label for="color">
-                                    <h5>CHOOSE COLOR</h5>
+                                    CHOOSE COLOR
                                 </label>
                                 <select name="color" id="color">
-                                    <option value="red" type="color" value="#ff0000">
-                                        <img src="img/c_red.png" alt="color red"> Red
+                                    <option value="red">
+                                        Red
                                     </option>
                                     <option value="green">
-                                        <div id="c_green" class="div_color"></div>Green
+                                        Green
                                     </option>
                                     <option value="black">
-                                        <div id="c_black" class="div_color"></div>Black
+                                        Black
                                     </option>
                                 </select>
                             </div>
                             <div class="product_option">
                                 <i class="fa fa-angle-down" aria-hidden="true"></i>
                                 <label for="size">
-                                    <h5>CHOOSE SIZE</h5>
+                                    CHOOSE SIZE
                                 </label>
                                 <select name="size" id="size">
                                     <option value="XXL">
-                                        <div id="s_xxl"></div>XXL
+                                        XXL
                                     </option>
                                     <option value="XL">
-                                        <div id="s_xl"></div>XL
+                                        XL
                                     </option>
                                     <option value="L">
-                                        <div id="s_l"></div>L
+                                        L
                                     </option>
                                 </select>
                             </div>
                             <div class="product_option">
                                 <label for="color">
-                                    <h5>QUANTITY</h5>
+                                    QUANTITY
                                 </label>
                                 <input type="number" min=1 step=1 value=2>
                             </div>
@@ -209,7 +200,7 @@
                                 <a href="#" class="product_add"><img src="img/cart_white.png" class="product_add_img"
                                         alt="Add to cart"> Add to Cart</a>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                 </section>
             </main>
