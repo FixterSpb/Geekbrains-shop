@@ -298,7 +298,7 @@
             include "php/subscribe.php";
             include 'php/footer.php';                
         ?>
-    </div>
+    </section>
 </body>
 
 </html>
